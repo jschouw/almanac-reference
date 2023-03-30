@@ -1,10 +1,7 @@
 # Debian Workstation Setup
 Personal setup and configuration for my Debian install.
 
-Includes initial setup of a fresh Debian install, and guides for development
-environment and workflow setup. 
-
-## Install Programs
+## Programs
 - Synaptic package manager
 - ufw (Uncomplicated FireWall)
 - Tmux, Tmuxinator
@@ -13,25 +10,19 @@ environment and workflow setup.
 - Pycharm Community (JetBrains Toolbox)
 - htop
 
-### Fun
-- cmatrix
-- cowsay
-- figlet
-- fortune
-- lolcat
-- chafa
+## Terminal Setup
+- Load `.bashrc` from repository
+- *todo: better help and manpages?*
+- *todo: vim setup for python and markdown*
+
+## Bookmarks
+- [Vim Cheat Sheet](https://vimsheet.com/)
+- [Python Cheat Sheet](https://www.pythoncheatsheet.org/)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
+- [Tmux Cheat Sheet](https://tmuxcheatsheet.com/)
 
 ## Configuration and Tweaks
 - Fix laptop beep on wake from sleep:
-  - add 'blacklist pcspkr' to /etc/modprobe.d/blacklist.conf
+  - add `blacklist pcspkr` to `/etc/modprobe.d/blacklist.conf`
 - Fix KDE user profile picture:
-  - copy small .png file to home directory named .face.icon
-
-## Terminal Setup
-- .bashrc configuration
-- Tmuxinator configuration, alias
-- Vim setup for Markdown and Python
-
-## Quick Guides
-- Git CLI
-- 
+  - copy small .png file named `.face.icon`
